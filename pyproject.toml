@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "pp-restaurant-web-agent"
+version = "0.1.0"
+description = "Evidence-led, culture-first restaurant site pipeline, with safe multi-store Pages deploy"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10,<13", "requests>=2.31,<3", "PyYAML>=6,<7", "beautifulsoup4>=4.12,<5"]
+[project.optional-dependencies]
+qa = ["playwright>=1.48,<2", "pytest>=8,<10"]
+web = ["fastapi>=0.110,<1", "uvicorn>=0.27,<1", "python-multipart>=0.0.9"]
+files = ["python-docx>=1.1,<2", "pypdf>=5,<7", "openpyxl>=3.1,<4"]
+[project.scripts]
+ppweb = "ppweb.cli:main"
+[tool.setuptools]
+packages = ["ppweb"]
