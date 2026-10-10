@@ -1,0 +1,18 @@
+name: PP Restaurant Web Studio
+cloudflare_project: pp-restaurants
+public_base_url: https://pp-restaurants.pages.dev
+sites_dir: sites
+publish_requires_owner_approval: true
+replace_existing_requires_confirmation: true
+allow_demonstration_publication: false
+max_zip_entries: 500
+max_uncompressed_mb: 350
+max_single_file_mb: 30
+max_photos_for_vision: 8
+image_max_width: 1920
+image_quality: 80
+browser_sizes:
+  - [390, 844]
+  - [1440, 900]
+  - [360, 780]
+  - [768, 1024]

@@ -1,0 +1,12 @@
+# 演示数据；真实运营必须由商家确认，禁止拿演示数据上线
+name: 示例川味小馆
+category: 川味家常菜
+address: ''
+phone: ''
+opening_hours: ''
+story: ''
+menu:
+  - name: 招牌示例菜
+    price: null
+approved_for_publication: false
+media_rights_confirmed: false
